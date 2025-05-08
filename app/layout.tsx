@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter as InterFont } from 'next/font/google';
 import "./globals.css";
+import StarsCanvas from "@/components/main/StarBackground";
 
 const inter = InterFont({ subsets: ['latin'] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
         {children}
+        <StarsCanvas/>
       </body>
     </html>
   );
