@@ -16,7 +16,7 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        
+
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[8px] border border-[#7042f88b] opacity-[0.9]"
@@ -62,7 +62,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify items-center"
       >
         <Image
-          src="/mainIconsDark.svg"
+          src={"/mainIconsDark.svg"}
           alt="work icon"
           height={650}
           width={650}
