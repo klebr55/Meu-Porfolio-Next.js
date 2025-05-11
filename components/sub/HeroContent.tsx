@@ -1,12 +1,12 @@
-"use client";
+"use client"
 
-import React from "react";
-import Image from "next/image";
-import { motion } from "framer-motion";
-import { slideInFromTop } from "@/utils/motion";
-import { slideInFromLeft } from "@/utils/motion";
-import { slideInFromRight } from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/16/solid";
+import React from "react"
+import Image from "next/image"
+import { motion } from "framer-motion"
+import { slideInFromTop } from "@/utils/motion"
+import { slideInFromLeft } from "@/utils/motion"
+import { slideInFromRight } from "@/utils/motion"
+import { SparklesIcon } from "@heroicons/react/16/solid"
 
 const HeroContent = () => {
   return (
