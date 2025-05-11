@@ -8,7 +8,11 @@ import { slideInFromLeft } from "@/utils/motion"
 import { slideInFromRight } from "@/utils/motion"
 import { SparklesIcon } from "@heroicons/react/16/solid"
 
-const HeroContent = () => {
+interface HeroContentProps {
+    imageSrc?: string;
+}
+
+const HeroContent = ({ imageSrc = "/mainIconsDark.png" }: HeroContentProps) => {
   return (
     <motion.div
       initial="hidden"
@@ -62,7 +66,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify items-center"
       >
         <Image
-          src={"/mainIcons.svg"}
+          src={imageSrc}
           alt="work icon"
           height={650}
           width={650}
