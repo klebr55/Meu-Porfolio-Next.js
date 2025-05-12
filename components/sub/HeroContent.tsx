@@ -12,7 +12,7 @@ interface HeroContentProps {
     imageSrc?: string;
 }
 
-const HeroContent = ({ imageSrc = "/mainIconsDark.svg" }: HeroContentProps) => {
+const HeroContent = ({ imageSrc = "/mainIconsdark.svg" }: HeroContentProps) => {
   return (
     <motion.div
       initial="hidden"
